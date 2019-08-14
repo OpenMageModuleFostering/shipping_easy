@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shippingeasy_Fulfilment>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Shippingeasy_Fulfilment>
+    </modules>
+</config> 

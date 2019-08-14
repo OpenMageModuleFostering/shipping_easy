@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>shipping_easy</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Multi-carrier and platform shipping. Best USPS rates, easy batching, endless support. Save time &amp; money today.&#xD;
+</summary>
+    <description>Easily integrate your Magento store with ShippingEasy to allow your order, tracking and fulfillment data to populate in real-time across all systems. Plug in your UPS and FedEx accounts or other marketplaces like eBay or Amazon to download all new orders and easily assign shipping preferences, rates and delivery options in real-time.&#xD;
+</description>
+    <notes>Easily integrate your Magento store with ShippingEasy to allow your order, tracking and fulfillment data to populate in real-time across all systems. Plug in your UPS and FedEx accounts or other marketplaces like eBay or Amazon to download all new orders and easily assign shipping preferences, rates and delivery options in real-time.&#xD;
+</notes>
+    <authors><author><name>Jack</name><user>shippingdev</user><email>product@shippingeasy.com</email></author></authors>
+    <date>2014-06-25</date>
+    <time>08:52:58</time>
+    <contents><target name="magecommunity"><dir name="Shippingeasy"><dir name="Fulfilment"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="View.php" hash="4b07d6ef2eb76152552a8779396fd497"/></dir></dir><dir name="System"><dir name="Config"><dir name="Error"><file name="Log.php" hash="670c7844e74c77edbf8e107302bec459"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="35389df0229decf33cc6edbc40fe9a8e"/></dir><dir name="Model"><file name="Fulfilment.php" hash="0dab199d609570acc1a739d78fb1c16f"/><dir name="Mysql4"><file name="Setup.php" hash="65f5bfe931f05bb7e6a909945139f8a6"/></dir><file name="Observer.php" hash="2b53bf77d3621dff01365997653caf69"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="FulfilmentController.php" hash="20a95b5004ec6f4a4ebc69701e1a447e"/></dir><file name="CallbackController.php" hash="1bf5faf00175da8caeab358ee589ff57"/><file name="IndexController.php" hash="9eb94acf7209f47c88b3422fb91a419d"/></dir><dir name="etc"><file name="config.xml" hash="863312552edc2cb323a2cb5d98c5301a"/><file name="system.xml" hash="b21e5500f85c2bc96bead2ef1d63d39a"/></dir><dir name="sql"><dir name="fulfilment_setup"><file name="mysql4-install-0.1.0.php" hash="421334e32d1cf529edfbfd4120d36239"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Shippingeasy_Fulfilment.xml" hash="02b8c2b545259a8f5a0ae457f5690ed7"/></dir></target><target name="magelocal"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><file name="shippingeasy.phtml" hash=""/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

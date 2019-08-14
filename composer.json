@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/shipping_easy",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Multi-carrier and platform shipping. Best USPS rates, easy batching, endless support. Save time & money today.
+",
+    "authors": [
+    {
+        "name": "Jack",
+        "email": "product@shippingeasy.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
